@@ -24,5 +24,10 @@ public class ScoreManager : MonoBehaviour
 
             this.ScoreText.text = ((int)this._scoreGame).ToString();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }

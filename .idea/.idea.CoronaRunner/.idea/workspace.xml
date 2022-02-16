@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b211a74e-83f3-44e0-a98a-64a14d970f1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoronaRunner/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoronaRunner/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoronaRunner/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CoronaRunner/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Virus 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Virus 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Virus 2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Virus 2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Virus 3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Virus 3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/bacteria.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/bacteria.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/virus (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/virus (2).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/virus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/virus.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GamePlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GamePlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game Over/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game Over/GameOver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Virus/SpawnVirus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Virus/SpawnVirus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Obstacle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Obstacle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +85,7 @@
       <updated>1644975495387</updated>
       <workItem from="1644975508971" duration="2327000" />
       <workItem from="1644978284694" duration="573000" />
+      <workItem from="1644979152606" duration="83000" />
     </task>
     <servers />
   </component>
