@@ -6,3 +6,6 @@ Corona Runner is a 2D endless runner Game that theme about Corona Virus, the mai
 
 ## Sound Provided by
  - [Casual BGM](https://assetstore.unity.com/packages/audio/music/casual-game-bgm-5-135943)
+
+## Assets
+- [Flaticon](https://www.flaticon.com/)
