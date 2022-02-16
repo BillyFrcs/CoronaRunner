@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     public float playerSpeed;
 
+    private Vector2 _Movement;
+
     private Rigidbody2D _RbPlayer;
     private Vector2 _PlayerDirection;
 
@@ -24,9 +26,15 @@ public class PlayerController : MonoBehaviour
     // Move using keyboard
     private void PlayerMovement()
     {
+        // Movement with mouse y
         float yDirection = Input.GetAxis("Mouse Y");
 
-        this._PlayerDirection = new Vector2(0, yDirection).normalized;
+        this._PlayerDirection = new Vector2(0f, yDirection * playerSpeed * Time.deltaTime).normalized;
+        
+        // Movement with vertical
+        this._Movement = new Vector2(0f, Input.GetAxis("Vertical") * playerSpeed * Time.deltaTime);
+        
+        transform.Translate(this._Movement);
     }
 
     // Fixed update is called once per physics frame

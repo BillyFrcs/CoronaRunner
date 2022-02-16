@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class SpawnVirus : MonoBehaviour
 {
-    public GameObject VirusObstacle;
+    public GameObject[] VirusObstacle = new GameObject[3];
 
     [Header("Spawn Obstacle Position")]
     [SerializeField]
@@ -48,6 +49,6 @@ public class SpawnVirus : MonoBehaviour
         float spawnRandomY = Random.Range(this._minY, _maxY);
 
         // Spawn virus obstacle
-        Instantiate(this.VirusObstacle, transform.position + new Vector3(spawnRandomX, spawnRandomY, 0), transform.rotation);
+        Instantiate(this.VirusObstacle[Random.Range(0, VirusObstacle.Length)], transform.position + new Vector3(spawnRandomX, spawnRandomY, 0), transform.rotation);
     }
 }
