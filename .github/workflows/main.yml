@@ -9,6 +9,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        projectPath:
+          - .
         testMode:
           - playmode
           - editmode
